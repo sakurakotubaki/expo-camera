@@ -23,6 +23,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "カメラへのアクセスを許可しますか？",
+          "microphonePermission": "マイクへのアクセスを許可しますか？",
+          "recordAudioAndroid": true
+        }
+      ]
+    ]
   }
 }
